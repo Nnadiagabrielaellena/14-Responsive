@@ -1,0 +1,26 @@
+.body{
+      font-family:Qwitcher Grypen ;
+      font-size: 2em;
+      margin: 0;
+      padding: 0;
+
+}
+.texto{
+      border: 2px solid black;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      font-size: 1em;
+     
+      
+}
+.titulo {
+      font-size: 3em;
+}
+@media(max-width:768px) {
+      .body{
+            font-size: 0.8em;
+      }
+      
+}
